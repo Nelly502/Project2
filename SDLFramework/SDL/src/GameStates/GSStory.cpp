@@ -14,14 +14,11 @@ void GSStory::Init()
 {
 	//auto model = ResourceManagers::GetInstance()->GetModel("Sprite2D.nfg");
 	auto texture = ResourceManagers::GetInstance()->GetTexture("bg_story.png");
-	if (ResourceManagers::GetInstance()->get_Music() == true) {
+	/*if (ResourceManagers::GetInstance()->get_Music() == true) {
 		m_Sound = std::make_shared<Sound>();
 		m_Sound->LoadSound("Data/Sounds/intro_music.mp3");
 		m_Sound->PlaySound();
-	}
-
-
-
+	}*/
 	// background
 
 	m_background = std::make_shared<Sprite2D>(texture, SDL_FLIP_NONE);
