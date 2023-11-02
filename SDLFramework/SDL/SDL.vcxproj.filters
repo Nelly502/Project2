@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameManager\ResourceManagers.cpp" />
+    <ClCompile Include="src\GameObject\Camera.cpp" />
+    <ClCompile Include="src\GameObject\CMath.cpp" />
+    <ClCompile Include="src\GameObject\MouseButton.cpp" />
+    <ClCompile Include="src\GameObject\Renderer.cpp" />
+    <ClCompile Include="src\GameObject\Sound.cpp" />
+    <ClCompile Include="src\GameObject\Sprite2D.cpp" />
+    <ClCompile Include="src\GameObject\SpriteAnimation.cpp" />
+    <ClCompile Include="src\GameObject\Text.cpp" />
+    <ClCompile Include="src\GameObject\TextureManager.cpp" />
+    <ClCompile Include="src\GameObject\Timer.cpp" />
+    <ClCompile Include="src\GameStates\GSEnd3.cpp" />
+    <ClCompile Include="src\GameStates\GSEnd4.cpp" />
+    <ClCompile Include="src\GameStates\GSEnd5.cpp" />
+    <ClCompile Include="src\GameStates\GSFinish.cpp" />
+    <ClCompile Include="src\GameStates\GSPlay1.cpp" />
+    <ClCompile Include="src\GameStates\GameStateBase.cpp" />
+    <ClCompile Include="src\GameStates\GameStateMachine.cpp" />
+    <ClCompile Include="src\GameStates\GSEnd.cpp" />
+    <ClCompile Include="src\GameStates\GSEnd2.cpp" />
+    <ClCompile Include="src\GameStates\GSGuide.cpp" />
+    <ClCompile Include="src\GameStates\GSIntro.cpp" />
+    <ClCompile Include="src\GameStates\GSMenu.cpp" />
+    <ClCompile Include="src\GameStates\GSPause.cpp" />
+    <ClCompile Include="src\GameStates\GSPick.cpp" />
+    <ClCompile Include="src\GameStates\GSPlay2.cpp" />
+    <ClCompile Include="src\GameStates\GSPlay3.cpp" />
+    <ClCompile Include="src\GameStates\GSStory.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\GameManager\ResourceManagers.h" />
+    <ClInclude Include="src\GameManager\Singleton.h" />
+    <ClInclude Include="src\GameObject\BaseObject.h" />
+    <ClInclude Include="src\GameObject\Camera.h" />
+    <ClInclude Include="src\GameObject\CMath.h" />
+    <ClInclude Include="src\GameObject\Define.h" />
+    <ClInclude Include="src\GameObject\KeyState.h" />
+    <ClInclude Include="src\GameObject\MouseButton.h" />
+    <ClInclude Include="src\GameObject\Renderer.h" />
+    <ClInclude Include="src\GameObject\Sound.h" />
+    <ClInclude Include="src\GameObject\Sprite2D.h" />
+    <ClInclude Include="src\GameObject\SpriteAnimation.h" />
+    <ClInclude Include="src\GameObject\Text.h" />
+    <ClInclude Include="src\GameObject\TextureManager.h" />
+    <ClInclude Include="src\GameObject\Timer.h" />
+    <ClInclude Include="src\GameStates\GSEnd3.h" />
+    <ClInclude Include="src\GameStates\GSEnd4.h" />
+    <ClInclude Include="src\GameStates\GSEnd5.h" />
+    <ClInclude Include="src\GameStates\GSFinish.h" />
+    <ClInclude Include="src\GameStates\GSPlay1.h" />
+    <ClInclude Include="src\GameStates\GameStateBase.h" />
+    <ClInclude Include="src\GameStates\GameStateMachine.h" />
+    <ClInclude Include="src\GameStates\GSEnd.h" />
+    <ClInclude Include="src\GameStates\GSEnd2.h" />
+    <ClInclude Include="src\GameStates\GSGuide.h" />
+    <ClInclude Include="src\GameStates\GSIntro.h" />
+    <ClInclude Include="src\GameStates\GSMenu.h" />
+    <ClInclude Include="src\GameStates\GSPause.h" />
+    <ClInclude Include="src\GameStates\GSPick.h" />
+    <ClInclude Include="src\GameStates\GSPlay2.h" />
+    <ClInclude Include="src\GameStates\GSPlay3.h" />
+    <ClInclude Include="src\GameStates\GSStory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\..\Downloads\Monster.wav" />
+  </ItemGroup>
+</Project>
